@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.section-carrousel{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+#img{
+    width: 400px;
+    height: 400px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Merienda', cursive; */
+}
+
+#inicio{
+    width:100%;
+    height:80px;
+    background-color:#ff1d8b;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+}
+
+header{
+    background-color: #ee2e5d;
+    font-family: 'Merienda', cursive;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    padding-top: 130px; /* Altura do menu */
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.menu{  
+    width:80%;
+    height:80px;
+    background-color:#ff1d8b;  
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+
+#carrossel{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    
+}
+
+.img_carrosel1{
+    width: 100px;
+    height: 800px;
+    position:relative; 
+    top:0px; 
+    left:0px;
+    
+}
+
+.botao_banner{
+    width:180px;
+    height:50px;
+    margin-top: 1vw;
+    border-style: none;
+    border-radius: 4px;
+    background-color:#ee2e5d;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position:absolute; 
+    top:600px; 
+    right:420px;
+}
+
+@media (max-width: 380px) 
+{
+
+    #carrossel{
+        width: 100%;
+        height: 160px;
+        background-color: black;
+        box-shadow: 1px 2px 2px rgb(51, 49, 49);
+        
+    }
+    
+    .img_carrosel1{
+        width: 100px;
+        height: 120px;
+        max-width: 150px;
+        
+    }
+}
